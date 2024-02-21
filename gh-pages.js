@@ -1,13 +1,13 @@
 var ghpages = require("gh-pages");
 
 ghpages.publish(
-  "public", // path to public directory
+  "build", // path to public directory
   {
     branch: "gh-pages",
-    repo: "https://github.com/username/yourproject.git", // Update to point to your repository
+    repo: "https://https://github.com/IshfatAbrar/Portfolio.git", // Update to point to your repository
     user: {
-      name: "Your name", // update to use your name
-      email: "Your Email address", // Update to use your email
+      name: "Ishfat Abrar Islam", // update to use your name
+      email: "ishfat0001abrar@gmail.com", // Update to use your email
     },
   },
   () => {
